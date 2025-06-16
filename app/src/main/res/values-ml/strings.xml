@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">AgricultureManagmentApp</string>
+    <string name="name">പേര്</string>
+    <string name="mrmrs">ശ്രീമാൻ ശ്രീമതി.</string>
+    <string name="mobile_number">മൊബൈൽ നമ്പർ</string>
+    <string name="send_otp">Otp അയയ്ക്കുക</string>
+    <string name="Verification_Failed">സ്ഥിരീകരണം പരാജയപ്പെട്ടു</string>
+    <string name="Username_Required">ഉപയോക്തൃനാമം ആവശ്യമാണ്</string>
+    <string name="Invalid_MobileNumber">മൊബൈൽ നമ്പർ അസാധുവാണ്</string>
+    <string name="Otp_Sent_to">OTP അയച്ചു</string>
+    <string name="Verify_Otp">Otp പരിശോധിക്കുക</string>
+    <string name="Not_Recieved_Otp">ഒടിപി ലഭിച്ചില്ലേ?</string>
+    <string name="Resend_otp">ഒടിപി വീണ്ടും അയക്കുക</string>
+    <string name="Code_sent">കോഡ് അയച്ചു</string>
+    <string name="Signin_Failed">സൈൻ ഇൻ പരാജയപ്പെട്ടു</string>
+    <string name="Previous">മുമ്പത്തെ</string>
+    <string name="Next">അടുത്തത്</string>
+</resources>

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "247319489358",
+    "firebase_url": "https://agriculturemanagmentapp-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "agriculturemanagmentapp",
+    "storage_bucket": "agriculturemanagmentapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:247319489358:android:3fc4c8f95312de22b50c1f",
+        "android_client_info": {
+          "package_name": "com.project.agriculturemanagmentapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "247319489358-n2l3t8m9g6vqmo9nqjn1gn994bsahr9p.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.project.agriculturemanagmentapp",
+            "certificate_hash": "2699ce594c7fa2bcb5e389b9f8a8148bf9af327b"
+          }
+        },
+        {
+          "client_id": "247319489358-1u2btcu6e5fd7ulr8348i93rgi2ickds.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCLHhU6YqNYk1MAIoy4EO4WJHuqLSgz2Ww"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "247319489358-1u2btcu6e5fd7ulr8348i93rgi2ickds.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context=".add_labour">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+            <com.google.android.material.textfield.TextInputLayout
+                style="@style/ThemeOverlay.Material3.AutoCompleteTextView.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/background"
+                android:hint="@string/Labour_name"
+                app:counterEnabled="true"
+                app:counterMaxLength="15"
+                app:hintEnabled="true"
+                app:hintTextColor="@color/black"
+                app:prefixText="@string/mrmrs"
+                app:prefixTextColor="@color/black"
+                app:startIconDrawable="@drawable/baseline_account_circle_24"
+                app:startIconTint="#3E6018">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/edtlname"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:fontFamily="@font/allerta"
+                    android:maxLength="15"
+                    android:shadowColor="@color/black"
+                    android:textColor="@color/black" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/background"
+                android:hint="@string/Labour_mobile_number"
+                app:counterEnabled="true"
+                app:counterMaxLength="10"
+                app:hintTextColor="@color/black"
+                app:prefixText="+91"
+                app:prefixTextColor="@color/black"
+                app:startIconDrawable="@drawable/baseline_call_24"
+                app:startIconTint="#3E6018">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/edtlmo"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:fontFamily="@font/allerta"
+                    android:inputType="number"
+                    android:maxLength="10"
+                    android:shadowColor="@color/black"
+                    android:textColor="@color/black" />
+            </com.google.android.material.textfield.TextInputLayout>
+            <com.google.android.material.textfield.TextInputLayout
+                style="@style/ThemeOverlay.Material3.AutoCompleteTextView.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/background"
+                android:hint="@string/Place_of_work"
+                app:hintEnabled="true"
+                app:hintTextColor="@color/black"
+                app:prefixTextColor="@color/black"
+                app:startIconDrawable="@drawable/baseline_location_on_24"
+                app:startIconTint="#3E6018">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/edtlplace"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:fontFamily="@font/allerta"
+                    android:maxLength="15"
+                    android:shadowColor="@color/black"
+                    android:textColor="@color/black" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+            <com.google.android.material.textfield.TextInputLayout
+                style="@style/ThemeOverlay.Material3.AutoCompleteTextView.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/background"
+                android:hint="@string/wages"
+                app:hintEnabled="true"
+                app:hintTextColor="@color/black"
+                app:prefixTextColor="@color/black"
+                app:startIconDrawable="@drawable/baseline_currency_rupee_24"
+                app:startIconTint="#3E6018">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/edtlwages"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:fontFamily="@font/allerta"
+                    android:maxLength="15"
+                    android:inputType="numberSigned"
+                    android:shadowColor="@color/black"
+                    android:textColor="@color/black" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+            <com.google.android.material.textfield.TextInputLayout
+                style="@style/ThemeOverlay.Material3.AutoCompleteTextView.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/background"
+                android:hint="@string/Additional_Description"
+                app:counterEnabled="true"
+                app:counterMaxLength="300"
+                app:hintEnabled="true"
+                app:hintTextColor="@color/black"
+                app:prefixTextColor="@color/black"
+                app:startIconDrawable="@drawable/baseline_description_24"
+                app:startIconTint="#3E6018">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/edtldes"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/allerta"
+                    android:maxLength="300"
+                    android:shadowColor="@color/black"
+                    android:textColor="@color/black" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+            <RelativeLayout
+                android:id="@+id/rldate"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/border_green"
+                android:gravity="center">
+
+                <TextView
+                    android:id="@+id/txtdate"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Select_date"
+                    android:textColor="#8BC34A"
+                    android:textSize="20dp" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/btnsavedetail"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:layout_marginTop="20sp"
+                android:background="@drawable/sendotp"
+                android:gravity="center">
+
+                <ProgressBar
+                    android:id="@+id/progressBar2"
+                    style="?android:attr/progressBarStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="#8BC34A"
+                    android:foregroundTint="#8BC34A"
+                    android:progressTint="#8BC34A"
+                    android:visibility="gone" />
+
+                <TextView
+                    android:id="@+id/txt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/andika"
+                    android:text="@string/Save_data"
+                    android:textColor="#FFFFFF"
+                    android:textSize="20dp" />
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+
+
+
+
+
+
+</LinearLayout>

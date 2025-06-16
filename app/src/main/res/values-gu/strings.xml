@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">AgricultureManagmentApp</string>
+    <string name="name">નામ</string>
+    <string name="mrmrs">મિસ્ટર શ્રીમતી.</string>
+    <string name="mobile_number">મોબાઇલ નંબર</string>
+    <string name="send_otp">ઓટીપી મોકલો</string>
+    <string name="Verification_Failed">ચકાસણી નિષ્ફળ</string>
+    <string name="Username_Required">વપરાશકર્તા નામ જરૂરી છે</string>
+    <string name="Invalid_MobileNumber">અમાન્ય મોબાઈલ નંબર</string>
+    <string name="Otp_Sent_to">OTP મોકલ્યો</string>
+    <string name="Verify_Otp">ઓટીપી ચકાસો</string>
+    <string name="Not_Recieved_Otp">Otp પ્રાપ્ત થયો નથી?</string>
+    <string name="Resend_otp">otp ફરીથી મોકલો</string>
+    <string name="Code_sent">કોડ સફળતાપૂર્વક મોકલ્યો</string>
+    <string name="Signin_Failed">સાઇન ઇન નિષ્ફળ થયું</string>
+    <string name="Previous">અગાઉના</string>
+    <string name="Next">આગળ</string>
+</resources>

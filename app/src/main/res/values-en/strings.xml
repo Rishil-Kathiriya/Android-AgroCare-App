@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">AgricultureManagmentApp</string>
+        <string name="name">Name</string>
+        <string name="mrmrs">Mr./Mrs.</string>
+        <string name="mobile_number">Mobile Number</string>
+        <string name="send_otp">Send Otp</string>
+        <string name="Verification_Failed">Verification Failed</string>
+        <string name="Username_Required">Username Required</string>
+        <string name="Invalid_MobileNumber">Invalid MobileNumber</string>
+        <string name="Otp_Sent_to">OTP Sent To </string>
+        <string name="Verify_Otp">Verify Otp</string>
+        <string name="Not_Recieved_Otp">Otp Not Recieved? </string>
+        <string name="Resend_otp">Resend otp</string>
+        <string name="Code_sent">Code sent Successfully</string>
+        <string name="Signin_Failed">SignIn Failed</string>
+        <string name="Previous">Privious</string>
+        <string name="Next">Next</string>
+</resources>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="Dark_red">#ff0000</color>
+    <color name="Light_red">#fcc1c1</color>
+    <color name="Dark_green">#137413</color>
+    <color name="Light_green">#afeaaf</color>
+    <color name="background">#98B17B</color>
+    <color name="text_input_layout_stroke_color">#065007</color>
+    <color name="text_color_hint">#4A8A4B</color>
+    <color name="green">#0B5E0C</color>
+    <color name="statusbarmain">#C2DD9E</color>
+</resources>

@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#A4C57E"
+    tools:context=".Language">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="50dp"
+        android:fontFamily="@font/andika"
+        android:text="Select your language"
+        android:textColor="@color/black"
+        android:textSize="25dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal">
+
+        <ToggleButton
+            android:id="@+id/tgleng"
+            android:layout_width="150dp"
+            android:layout_height="60dp"
+            android:background="@drawable/bgtoggle"
+            android:textSize="20dp"
+            android:layout_margin="10dp"
+            android:textAlignment="center"
+            android:textOff="English"
+            android:text="English"
+            android:textColor="@color/black"
+            />
+
+        <ToggleButton
+            android:id="@+id/tglhnd"
+            android:layout_width="150dp"
+            android:layout_height="60dp"
+            android:background="@drawable/bgtoggle"
+            android:textSize="25dp"
+            android:layout_margin="10dp"
+            android:textAlignment="center"
+            android:text="हिन्दी"
+            android:textOff="हिन्दी"
+            android:textColor="@color/black"
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal">
+
+        <ToggleButton
+            android:id="@+id/tglgjr"
+            android:layout_width="150dp"
+            android:layout_height="60dp"
+            android:background="@drawable/bgtoggle"
+            android:textSize="25dp"
+            android:layout_margin="10dp"
+            android:textAlignment="center"
+            android:text="ગુજરાતી"
+            android:textOff="ગુજરાતી"
+            android:textColor="@color/black"
+            />
+
+        <ToggleButton
+            android:id="@+id/tgltml"
+            android:layout_width="150dp"
+            android:layout_height="60dp"
+            android:background="@drawable/bgtoggle"
+            android:textSize="25dp"
+            android:layout_margin="10dp"
+            android:textAlignment="center"
+            android:text="தமிழ்"
+            android:textOff="தமிழ்"
+            android:textColor="@color/black"
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal">
+
+        <ToggleButton
+            android:id="@+id/tglknd"
+            android:layout_width="150dp"
+            android:layout_height="60dp"
+            android:background="@drawable/bgtoggle"
+            android:textSize="25dp"
+            android:layout_margin="10dp"
+            android:textAlignment="center"
+            android:textOff="ಕನ್ನಡ"
+            android:text="ಕನ್ನಡ"
+            android:textColor="@color/black"
+            />
+
+        <ToggleButton
+            android:id="@+id/tglurd"
+            android:layout_width="150dp"
+            android:layout_height="60dp"
+            android:background="@drawable/bgtoggle"
+            android:textSize="25dp"
+            android:layout_margin="10dp"
+            android:textAlignment="center"
+            android:textOff="اردو"
+            android:text="اردو"
+            android:textColor="@color/black"
+            />
+
+    </LinearLayout>
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:gravity="center_horizontal">
+
+    <ToggleButton
+        android:id="@+id/tgltlg"
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:background="@drawable/bgtoggle"
+        android:textSize="25dp"
+        android:layout_margin="10dp"
+        android:textAlignment="center"
+        android:textOff="తెలుగు"
+        android:text="తెలుగు"
+        android:textColor="@color/black"
+        />
+
+    <ToggleButton
+        android:id="@+id/tglbgl"
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:background="@drawable/bgtoggle"
+        android:textSize="25dp"
+        android:layout_margin="10dp"
+        android:textAlignment="center"
+        android:textOff="বাংলা"
+        android:text="বাংলা"
+        android:textColor="@color/black"
+        />
+
+</LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal">
+
+        <ToggleButton
+            android:id="@+id/tglpjb"
+            android:layout_width="150dp"
+            android:layout_height="60dp"
+            android:background="@drawable/bgtoggle"
+            android:textSize="25dp"
+            android:layout_margin="10dp"
+            android:textAlignment="center"
+            android:textOff="پَن٘جابی"
+            android:text="پَن٘جابی"
+            android:textColor="@color/black"
+            />
+
+        <ToggleButton
+            android:id="@+id/tglmlylm"
+            android:layout_width="150dp"
+            android:layout_height="60dp"
+            android:background="@drawable/bgtoggle"
+            android:textSize="25dp"
+            android:layout_margin="10dp"
+            android:textAlignment="center"
+            android:textOff="മലയാളം"
+            android:text="മലയാളം"
+            android:textColor="@color/black"
+            />
+
+    </LinearLayout>
+    <ToggleButton
+        android:id="@+id/tglmrt"
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:background="@drawable/bgtoggle"
+        android:textSize="25dp"
+        android:layout_margin="10dp"
+        android:textAlignment="center"
+        android:textOff="Marathi"
+        android:text="Marathi"
+        android:textColor="@color/black"
+        />
+    <ImageButton
+        android:id="@+id/btnsublang"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="30sp"
+        android:layout_marginLeft="130dp"
+        android:background="@drawable/border_green"
+        app:srcCompat="@drawable/baseline_arrow_forward_24"
+        app:tint="#FFFFFF"
+        />
+
+</LinearLayout>
+

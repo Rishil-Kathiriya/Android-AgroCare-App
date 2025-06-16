@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/background"
+    tools:context=".MainActivity">
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="20dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="LOGIN"
+                android:textAlignment="center"
+                android:textColor="#3D552C"
+                android:fontFamily="@font/andika"
+                android:textSize="30dp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/prfpc"
+                android:layout_width="250dp"
+                android:layout_height="250dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="50dp"
+                android:layout_marginBottom="50dp"
+                android:background="@drawable/imgback"
+                android:fitsSystemWindows="true"
+                android:scaleType="centerInside"
+                android:src="@drawable/baseline_add_a_photo_24"
+                />
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:hintEnabled="true"
+                android:hint="@string/name"
+                app:boxBackgroundColor="#BCD69F"
+                app:boxCornerRadiusBottomEnd="10sp"
+                app:boxCornerRadiusBottomStart="10dp"
+                app:boxCornerRadiusTopEnd="10dp"
+                app:boxCornerRadiusTopStart="10dp"
+                app:hintTextColor="@color/black"
+                app:startIconDrawable="@drawable/baseline_account_circle_24"
+                app:startIconTint="#3E6018"
+                style="@style/CustomOutlineBox"
+                app:counterEnabled="true"
+                android:textColorHint="@color/black"
+                app:counterMaxLength="15"
+                app:prefixTextColor="#0C4A0A"
+                app:prefixText="@string/mrmrs"
+                >
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/edtuname"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:maxLength="15"
+                    android:fontFamily="@font/allerta"
+                    android:shadowColor="@color/black"
+                    android:textColor="@color/black" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/mobile_number"
+                app:counterEnabled="true"
+                app:boxCornerRadiusBottomEnd="10sp"
+                app:boxCornerRadiusBottomStart="10dp"
+                app:boxCornerRadiusTopEnd="10dp"
+                app:boxCornerRadiusTopStart="10dp"
+                app:counterMaxLength="10"
+                app:boxBackgroundColor="#BCD69F"
+                app:hintTextColor="@color/black"
+                app:prefixTextColor="#0C4A0A"
+                style="@style/CustomOutlineBox"
+                android:layout_marginTop="5dp"
+                android:textColorHint="@color/black"
+                app:startIconDrawable="@drawable/baseline_call_24"
+                app:startIconTint="#3E6018"
+                app:prefixText="+91"
+
+                >
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/edtmo"
+                    android:layout_width="match_parent"
+                    android:textColor="@color/black"
+                    android:shadowColor="@color/black"
+                    android:layout_height="60dp"
+                    android:inputType="number"
+                    android:maxLength="10"
+                    android:fontFamily="@font/allerta"
+                    />
+            </com.google.android.material.textfield.TextInputLayout>
+            <RelativeLayout
+                android:id="@+id/btngetotp"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:gravity="center"
+                android:layout_marginTop="20sp"
+                android:background="@drawable/sendotp">
+
+                <TextView
+                    android:id="@+id/txt"
+                    android:fontFamily="@font/andika"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/send_otp"
+                    android:textColor="#FFFFFF"
+                    android:textSize="20dp" />
+
+                <ProgressBar
+                    android:id="@+id/progressBar2"
+                    style="?android:attr/progressBarStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:progressTint="#8BC34A"
+                    android:foregroundTint="#8BC34A"
+                    android:visibility="gone"
+                    android:backgroundTint="#8BC34A"
+                    />
+
+            </RelativeLayout>
+
+
+        </LinearLayout
+            >
+    </androidx.core.widget.NestedScrollView>
+</LinearLayout>
